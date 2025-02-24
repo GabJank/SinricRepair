@@ -120,7 +120,7 @@ bool ProductConfigManager::saveJsonConfig(const JsonDocument &doc) {
 }
 ```
 ## clear
-```
+```c++
 bool ProductConfigManager::clear(){
   Serial.printf("[ProductConfigManager.clear()]: Clear config..."); 
    
